@@ -14,7 +14,7 @@ import br.com.db1.db1start.aula18.calculadoraapi.model.Calculadora;
 import br.com.db1.db1start.aula18.calculadoraapi.service.CalculadoraService;
 
 @RestController
-@RequestMapping("/calculadora")
+@RequestMapping("/api/calculadora")
 public class CalculadoraController {
 
 	@Autowired
